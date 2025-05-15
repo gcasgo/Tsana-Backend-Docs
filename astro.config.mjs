@@ -4,6 +4,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://gcasgo.github.io',
+  	base: 'Tsana-Backend-Docs',
 	integrations: [
 		starlight({
 			title: 'Tsana Backend',
